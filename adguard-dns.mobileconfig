@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>yeh ek free tool hai jo aap sabhi ke liye mene bnaya hai </string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>94.140.14.14</string>
+						<string>94.140.15.15</string>
+						<string>2a10:50c0:0:0:0:0:ad1:ff</string>
+						<string>2a10:50c0:0:0:0:0:ad2:ff</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://dns.adguard-dns.com/dns-query</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use AdGuard DNS</string>
+				<key>PayloadDisplayName</key>
+				<string>AdGuard DoH</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.28ffc183-7784-4f59-96d1-907806a87613</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>5dfa53d9-de97-47d4-9c43-87122246d209</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>This tool is made by @arre_harsh and It helps to remove ads from your iphone</string>
+		<key>PayloadDisplayName</key>
+		<string>Hide Ads by Arre Harsh</string>
+		<key>PayloadIdentifier</key>
+		<string>8cb81ee8-6972-4b83-88a5-47602991adff</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false />
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>acc613b1-de3d-4702-af8e-d9338f51e250</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
